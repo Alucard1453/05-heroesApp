@@ -1,0 +1,13 @@
+<div class="container">
+    <h1 mat-dialog-title>¿Está seguro?</h1>
+    <hr>
+    <div mat-dialog-content>
+        Está a punto de borrar a {{data.superhero}}
+        <br>
+        ¿Desea continuar?
+    </div>
+    <div mat-dialog-actions class="row">
+        <button mat-button mat-dialog-close cdkFocusInitial color="warn" (click)="borrar()" class="col-6">Si, borrar</button>
+        <button mat-button mat-dialog-close class="col-5">Cancelar</button>
+    </div>
+</div>

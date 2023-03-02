@@ -6,11 +6,7 @@ import { HeroesService } from '../../services/heroes.service';
 @Component({
   selector: 'app-buscar',
   templateUrl: './buscar.component.html',
-  styles: [`
-    .container{
-      width: 100%;
-    }
-  `]
+  styles: []
 })
 export class BuscarComponent{
 
